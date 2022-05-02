@@ -33,7 +33,10 @@
 *::-webkit-scrollbar-thumb{
    background-color: var(--blue);
 }
-
+.h1{
+   font-size: 100%;
+   color:var(--black);
+}
 html{
    font-size: 62.5%;
    overflow-x: hidden;
@@ -110,10 +113,6 @@ section{
    color:var(--black);
    cursor: pointer;
    display: none;
-}
-.h1{
-   font-size: 4.0rem;
-   color:var(--black);
 }
 .home{
    background:url(../images//website_bg.png) no-repeat;
