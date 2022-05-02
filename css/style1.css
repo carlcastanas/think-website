@@ -121,8 +121,9 @@ section{
 }
 .w3-container{
     padding:2rem;
+    border: 1px solid black;
     outline-color: rgb(0, 0, 0);
- 
+    border-radius: 0px  0px 0px 0px;
  }
 .home .content{
    width: 55rem;
