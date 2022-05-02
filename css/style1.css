@@ -120,12 +120,14 @@ section{
    background-position: center;
 }
 .title__website{
-    padding:2rem;
+    background-color: rgb(255, 255, 255);
+    padding:0.1rem;
     border: 1px solid black;
     outline-color: rgb(0, 0, 0);
     border-radius: 20px  20px 0px 0px;
  }
 .subtitle__website{
+    background-color: #f8d9aa;
     padding:2rem;
     border: 1px solid black;
     outline-color: rgb(0, 0, 0);
