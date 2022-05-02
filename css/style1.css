@@ -123,7 +123,10 @@ section{
     padding:2rem;
     border: 1px solid black;
     outline-color: rgb(0, 0, 0);
-    border-radius: 0px  0px 0px 0px;
+    border-radius: 20px  00px 0px 0px;
+ }
+.w3-containers{
+    border-radius: 20px  00px 0px 0px;
  }
 .home .content{
    width: 55rem;
