@@ -126,11 +126,12 @@ section{
 }
 
 .home .content h3{
-   font-size: 6rem;
-   text-transform: uppercase;
+   font-size: 4rem;
    color:var(--black);
 }
-
+.creation__bold{
+   font-weight: bolder;
+}
 .home .content p{
    line-height: 2;
    font-size: 1.5rem;
