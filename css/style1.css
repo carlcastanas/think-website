@@ -128,6 +128,7 @@ section{
  }
 .subtitle__website{
     background-color: #f8d9aa;
+    color: #333;
     padding:2rem;
     border: 1px solid black;
     outline-color: rgb(0, 0, 0);
@@ -148,7 +149,7 @@ section{
 .home .content p{
    line-height: 2;
    font-size: 1.5rem;
-   color:var(--light-color);
+   color:var(--black);
    padding:1rem 0;
 }
 
