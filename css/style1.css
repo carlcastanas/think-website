@@ -119,14 +119,17 @@ section{
    background-size: cover;
    background-position: center;
 }
-.w3-container{
+.title__website{
     padding:2rem;
     border: 1px solid black;
     outline-color: rgb(0, 0, 0);
-    border-radius: 20px  00px 0px 0px;
+    border-radius: 20px  20px 0px 0px;
  }
-.w3-container{
-    border-radius: 20px  00px 0px 0px;
+.subtitle__website{
+    padding:2rem;
+    border: 1px solid black;
+    outline-color: rgb(0, 0, 0);
+    border-radius: 0px  0px 20px 20px;
  }
 .home .content{
    width: 55rem;
