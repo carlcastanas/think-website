@@ -12,10 +12,6 @@
     -webkit-user-select: none;
     cursor: pointer;
 }
-body
-{
-    background-color: #002333;
-}
 section
 {
     display: flex;
@@ -64,7 +60,7 @@ section
     padding: 5px 10px;
     color: #fff;
     font-size: 14px;
-    background: #002333;
+
     border-radius: 5px;
     z-index: 1;
     display: none;
@@ -76,7 +72,6 @@ section
     bottom: -40%;
     left: 50%;
     transform: translate(-50%,-50%) rotate(45deg);
-    background: #002333;
     width: 15px;
     height: 15px;
     z-index: -1;
