@@ -5,8 +5,13 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>THINK</title>
-
-   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> <!-- Font Awesome -->
+   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'> <!-- Roboto Slab -->
+   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'> <!-- Bootstrap -->
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'> <!-- Animate.css -->
+   <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Responsive design --> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css" 
+     integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY=" crossorigin="anonymous"> <!-- Fork Awesome -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- bootstrap cdn link  -->
@@ -50,19 +55,40 @@
 <!-- home section starts  -->
 
 <section class="home" id="home">
-<sample></sample>
+<sample></sample> 
+
    <div class="container">
-<h1>test</h1>
+   
       <div class="row min-vh-100 align-items-center">
-        
+        <q class="title__inspired">Feel inspired? reflect and create.</q>
+        <p class="title__louisianne">Louisianne Monka Momavuli, 2022</p>
       </div>
-
-   </div>
-
+</div>
+<div class="container">
+   <div id="quote-box">
+      <i id="quote-left" class="fa fa-quote-left"></i>
+      <p id="quote"></p>
+      <span id="author" class="main-color"></span>
+      <i id="quote-right" class="fa fa-quote-right"></i>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <ul>
+          <li></li>
+          <li><a class="main-color" href="" target="_blank"></a></li>
+        </ul>
+      </div>
+    </div>
+   <div class="col-xs-6">
+      <center><a id="next-quote" class="button__light" href="#"><i class="fa fa-lightbulb-o"></i></a></center>
+   </div> 
+</div>
 </section>
-
+<div id="hidden"></div>
 <!-- custom js file link  -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src="../js/script.js"></script>
+<script src="../js/quote.js"></script>
 
 </body>
 </html>
